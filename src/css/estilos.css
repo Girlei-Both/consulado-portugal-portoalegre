@@ -1,0 +1,387 @@
+
+body{
+    background-color: snow;
+
+    background-image: url(../imagens/png-folhas.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main{
+    background-image: url(../imagens/png-design-green-red.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+/*CABEÇALHO*/
+.cabecalho{
+    background-color: black;
+    color: snow;
+    font-family: Arial;
+    font-size: 80%;
+    text-align: right;
+    margin-block-end: 1%;
+    padding: 0.5%;
+}
+
+.img-cabecalho{
+    width: 5%;
+    height: 5%;
+    margin-right: 5%;
+    border: 2px solid silver;
+    border-radius: 50%;
+}
+
+/*RODAPE*/
+.rodape{
+    background-color: black;
+    color: snow;
+    font-family: Arial;
+    font-size: 80%;
+    text-align: center;
+    padding: 0.5%;
+}
+
+
+
+/*MENU*/
+/*Formatação dos MENUs principais*/
+.menus{
+    display: flex;
+    padding: 1.5%;
+    background-color: gainsboro;
+    border-radius: 30% 30%;
+    border-block-start: #dc241f;
+    border-block-end: #006233;
+    border-style: outset;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.menus .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 0.1%;
+    width: 100%;
+    cursor: pointer;
+    background-color: #dc241f;
+    transition: backgroud-color 0.2s ease-in-out;
+    font-family: 'Trebuchet MS';
+    color: snow;
+    border-radius: 20px;
+    border: 2px solid silver;
+}
+
+.menu:hover{
+    background-color: #ffe805;
+    color: #006233;
+}
+
+.menu.selecionado{
+    background-color: #006233;
+    color: snow;
+}
+
+/*Formatação das ABAs principais*/
+.informacao.selecionado{
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.informacao{
+    display: none;
+}
+
+
+
+
+
+/*Formatação dos MENUs secundários*/
+.menus-um{
+    padding: 10px;
+    width: 250px;
+    float: left;
+    background-color: silver;
+    border-radius: 30px;
+}
+
+.menus-um .menu-um{
+    cursor: pointer;
+    background-color: gainsboro;
+    transition: backgroud-color 0.2s ease-in-out;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+.menu-um.selecionado{
+    background-color: #006233;
+    color: snow;
+}
+
+.menu-um:hover{
+    background-color: #ffe805;
+    color: #006233;
+}
+
+/*Formatação das ABAs*/
+.informacao-um.selecionado{
+    display: block;
+    margin-left: 25%;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.informacao-um{
+    display: none;
+}
+
+
+
+/*Formatação dos MENUs secundários*/
+.menus-dois{
+    padding: 10px;
+    width: 250px;
+    float: left;
+    background-color: silver;
+    border-radius: 30px;
+}
+
+.menus-dois .menu-dois{
+    cursor: pointer;
+    background-color: gainsboro;
+    transition: backgroud-color 0.2s ease-in-out;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+.menu-dois.selecionado{
+    background-color: #006233;
+    color: snow;
+}
+
+.menu-dois:hover{
+    background-color: #ffe805;
+    color: #006233;
+}
+
+/*Formatação das ABAs*/
+.informacao-dois.selecionado{
+    display: block;
+    margin-left: 25%;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.informacao-dois{
+    display: none;
+}
+
+
+
+
+
+/*Formatação dos MENUs secundários*/
+.menus-tres{
+    padding: 10px;
+    width: 250px;
+    float: left;
+    background-color: silver;
+    border-radius: 30px;
+}
+
+.menus-tres .menu-tres{
+    cursor: pointer;
+    background-color: gainsboro;
+    transition: backgroud-color 0.2s ease-in-out;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: 'Trebuchet MS';
+}
+
+.menu-tres.selecionado{
+    background-color: #006233;
+    color: snow;
+}
+
+.menu-tres:hover{
+    background-color: #ffe805;
+    color: #006233;
+}
+
+/*Formatação das ABAs*/
+.informacao-tres.selecionado{
+    display: block;
+    margin-left: 25%;
+    font-family: Verdana;
+    text-align: justify;
+}
+
+.informacao-tres{
+    display: none;
+}
+
+
+
+
+/*OUTRAS FOMATAÇÕES*/
+.titulos{
+    color: #a52a2a;
+    font-family: 'Lucida Sans Unicode';
+    font-size: xx-large;
+    text-align: center;
+    
+    background-image: url(../imagens/png-placa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65%;
+    padding: 13%;
+}
+
+.destaque-titulo{
+    color: midnightblue;
+    font-family: Impact;
+    font-variant: small;
+    font-size: x-large;
+    padding-block-start: 3%;
+    padding-block-end: 1%;
+}
+
+.destaque-subtitulo{
+    color: #006233;
+    font-family: Impact;
+    font-variant: small;
+    padding-block-start: 1%;
+}
+
+.destaque-elemento{
+    color:#a52a2a;
+    font-family: Haettenschweiler;
+    font-size: x-large;
+}
+
+.link-email{
+    color: blue;
+}
+
+.observacoes{
+    color: brown;
+    font-family: monospace;
+    font-size: small;
+}
+
+.destaque-texto{
+    color:#a52a2a;
+    font-family: Haettenschweiler;
+    font-size: large;
+}
+
+.itens{
+    font-family: 'Gill Sans';
+    color: #a52a2a;
+    font-size: small;
+}
+
+.bloco-img-read{
+    margin-block-start: 20%;
+    padding-block-end: 20%;
+    text-align: right;
+    font-size: smaller;
+}
+
+.img-read{
+    width: 120px;
+}
+
+.img-read:hover{
+    background-color: #006233;
+    border-radius: 30%;
+}
+
+
+.bloco-img-country{
+    text-align: left;
+}
+
+.img-country{
+    width: 50%;
+}
+
+.bloco-img-flag{
+    text-align: center;
+}
+
+.img-flag{
+    width: 30%;
+}
+
+.bloco-img-notebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-notebook{
+    width: 60%;
+    margin: 5%;
+    border-radius: 10% 60%;
+    border-color: silver;
+    border-style: solid;
+}
+
+.mapa{
+    width: 50%;
+    height: 400px;
+    margin-block-end: 10%;
+    border-radius: 10% 30%;
+    border: 2px groove #006233;
+    size: 100%;
+}
+
+.lista-visto{
+    padding: 10%;
+    border-radius: 10% 10%;
+    list-style-type: disc;
+    background-color: lemonchiffon;
+}
+
+.video-musica{
+    width: 50%;
+    border: 5px solid #a52a2a;
+    border-radius: 20px;
+}
+
+.aviso-projeto{
+    margin: 10%;
+    padding: 2%;
+    background-color: antiquewhite;
+    border: 5px dashed red;
+    border-radius: 30px;
+}
+
+.bloco-config{
+    text-align: center;
+    padding-block-end: 5%;
+}
+
+.img-config{
+    width: 10%;
+}
+
+
